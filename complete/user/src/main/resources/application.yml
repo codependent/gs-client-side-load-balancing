@@ -11,3 +11,10 @@ say-hello:
       enabled: false
     listOfServers: localhost:8090,localhost:9092,localhost:9999
     ServerListRefreshInterval: 15000
+    #NFLoadBalancerPingInterval: 1
+    
+logging:
+  level:
+    com.netflix: debug
+    org.springframework.cloud: debug
+    
